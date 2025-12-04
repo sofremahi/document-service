@@ -59,7 +59,6 @@ mode=all → search in title OR content OR tag name (default)
 ***Examples:***
 
 ```http
-Copy code
 GET /documents/search?query=Deep&mode=all
 GET /documents/search?query=AI&mode=tag
 GET /documents/search?query=Spring&mode=title
